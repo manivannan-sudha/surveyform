@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suurvey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="header">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quae quia ipsum eaque recusandae ducimus unde sapiente architecto minima commodi nihil harum aut pariatur, quod hic, voluptate, corporis doloremque corrupti?</p>
+</div>
+
+
+    <div class="box">
+        
+        
+        <form action="" method="post">
+
+            <label for="name" id="name-label">Name: <input placeholder="Enter your Name" id="name" type="text" required /></label><br>
+            <label for="email" id="email-label">Email: <input placeholder="Enter your Email" id="email" type="email" required /></label><br>
+            <label for="number" id="number-label">Number: <input placeholder="Enter your number" id="number" type="number" min="0" max="9" required /></label><br>
+            <label for="radio" id="radio-label"><input type="radio" id="radio" name="select-radio">Yes</label><br>
+            <label for="radio" id="radio-label"><input type="radio" id="radio" name="select-radio">No</label><br>
+            <label for="check" id="check-label"><input type="checkbox" id="check" value="1">Loved it</label><br>
+            <label for="check" id="check-label"><input type="checkbox" id="check" value="2">Crushed it</label><br>
+            <label for="check" id="check-label"><input type="checkbox" id="check" value="3">Loved it always</label><br>
+            <label for="feed" id="feed-label">Feedback: <input placeholder="Help us improve" type="text" id="feed"></label><br>
+            <button id="submit">Submit</button>
+        </form>
+
+        <img src="survey.png" width="380px" alt="">
+
+    </div>
+
+
+</body>
+</html>
